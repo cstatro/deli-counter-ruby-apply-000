@@ -17,8 +17,9 @@ end
 
 def now_serving deli_line
   if deli_line.length == 0
-    puts "ain't nbodoy home"
+    puts "There is nobody waiting to be served!"
   else
     patron = deli_line.shift
+    puts "Currently serving #{patron}."
   end
 end
