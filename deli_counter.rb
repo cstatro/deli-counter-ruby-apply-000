@@ -13,6 +13,7 @@ end
 
 def take_a_number deli_line, patron
   deli_line.push patron
+  puts "Welcome #{patron}, you are number #{deli_line.length} in line."
 end
 
 def now_serving deli_line
